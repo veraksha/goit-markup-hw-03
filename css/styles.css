@@ -45,6 +45,10 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 /* header */
 .header{
     background-color:var(--white-txt-cl);
@@ -59,6 +63,7 @@ body{
 }
 .flex-list{
     display: flex;
+
 }
 .logo{
     text-decoration: none;
@@ -149,11 +154,14 @@ border-radius: 4px;
 .button-main:focus{
     background:var(--button-cl);
 }
-.banner{
+.hero{
     background-color: var(--dark-txt-cl);
     text-align:center;
     padding-top: 188px;
     padding-bottom: 188px;
+}
+.section-one{
+    margin-top: 120px;
 }
 .advantages{
     font-weight: 500;
@@ -162,10 +170,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color:var(--dark-txt-cl);
 margin-bottom: 8px;
-}
-.section-adv{
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 .description{
 font-size: 16px;
@@ -188,7 +192,12 @@ width: 264px;
         overflow: hidden;
 }
 /* section 2 */
-.title-h2{
+
+.photo-section-two{
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.title-section{
     font-weight: 700;
 font-size: 36px;
 line-height: 1.12;
@@ -197,9 +206,6 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color:var(--dark-txt-cl);
 margin-bottom: 72px;
-}
-.section-2{
-    margin-bottom: 120px;
 }
 /* section 3 */
 .section-3{
@@ -266,11 +272,11 @@ margin-top: 16px;
 .images{
     margin-top: 51px;
 }
-.main-portfolio{
+.portfolio-section{
     padding-top: 96px;
-    padding-bottom: 117px;
+    padding-bottom: 120px;
 }
-.portfolio-nav{
+.portfolio-btn{
     margin-bottom: 72px;
     justify-content: center;
 align-items: center;
@@ -289,7 +295,10 @@ letter-spacing: 0.04em;
 color: var(--focused-txt-cl);
 padding: 12px 24px;
 height: 48px;
-margin-right: 24px;
+
+}
+.btn-general{
+    margin-right: 24px;
 }
 .navigation-btn:hover{
 background-color: var(--focused-txt-cl);
@@ -322,7 +331,14 @@ letter-spacing: 0.02em;
     border-color: var(--accent-txt-cl);
     border-top: none;
 }
-.portfolio-sec-2{
+.portfolio-sec-82{
     margin-top: 48px;
     margin-bottom: 51px;
+}
+.project-item{
+    flex-basis: calc((100%-24px*2)/3);
+   margin-right: 24px;
+}
+.list{
+    width: 1158px;
 }
