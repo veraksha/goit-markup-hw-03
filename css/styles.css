@@ -87,10 +87,6 @@ color:var(--dark-txt-cl);
 .portfolio{
     color: var(--focused-txt-cl);
 }
-.nav-position{
-    margin-right: 40px;
-    margin-left: 40px;
-}
 .studio{
     color: var(--focused-txt-cl);
 }
@@ -102,6 +98,8 @@ color:var(--dark-txt-cl);
 }
 .navigation-general{
     list-style-type: none;
+    gap: 40px;
+    padding-right: 332px;
 }
 .contacts{
     text-decoration: none;
@@ -118,13 +116,11 @@ font-style: normal;
 }
 .contacts-general{
     list-style-type: none;
+    gap: 40px;
 }
-.mail{
-    margin-left: 332px;
-    margin-right: 40px;
-}
+
 /* Studio Main Page */
-/* section 1 */
+/* section 1/2 */
 .title{
 font-weight: 700;
 font-size: 56px;
@@ -160,8 +156,15 @@ border-radius: 4px;
     padding-top: 188px;
     padding-bottom: 188px;
 }
-.section-one{
-    margin-top: 120px;
+.section-two{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.flex-list-a{
+    flex-basis: auto;
+}
+.list-section-one{
+gap: 24px;
 }
 .advantages{
     font-weight: 500;
@@ -173,7 +176,7 @@ margin-bottom: 8px;
 }
 .description{
 font-size: 16px;
-line-height: 24px;
+line-height: 1.5;
 letter-spacing: 0.02em;
 width: 264px;
 
@@ -191,11 +194,12 @@ width: 264px;
         clip: rect(0 0 0 0);
         overflow: hidden;
 }
-/* section 2 */
-
-.photo-section-two{
-    margin-left: 24px;
-    margin-right: 24px;
+/* section 3 */
+.section-three{
+    padding-bottom: 120px;
+}
+.image-list{
+    gap: 24px;
 }
 .title-section{
     font-weight: 700;
@@ -207,8 +211,8 @@ text-transform: capitalize;
 color:var(--dark-txt-cl);
 margin-bottom: 72px;
 }
-/* section 3 */
-.section-3{
+/* section 4 */
+.section-four{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -335,10 +339,7 @@ letter-spacing: 0.02em;
     margin-top: 48px;
     margin-bottom: 51px;
 }
-.project-item{
-    flex-basis: calc((100%-24px*2)/3);
-   margin-right: 24px;
-}
 .list{
-    width: 1158px;
+  flex-wrap: wrap;
+  gap: 48px 24px;
 }
